@@ -11,11 +11,6 @@ import org.springframework.web.servlet.LocaleResolver;
 @Configuration
 public class MvcConfig {
 
-//  @Bean
-//  public ResourceBundle messageBundle() {
-//    return ResourceBundle.getBundle("ValidationMessages");
-//  }
-
   @Bean
   public LocaleResolver sessionLocaleResolver() {
     return new AcceptHeaderResolver();

@@ -2,16 +2,16 @@ package org.example.entity;
 
 import java.io.Serializable;
 
-public abstract class AbstractEntity<ID extends Serializable> implements Serializable {
+public abstract class AbstractEntity<I extends Serializable> implements Serializable {
 	
-	private ID id;
+	private I id;
 
-	public ID getId() {
+	public I getId() {
 		return id;
 	}
 
-	public void setId(ID id) {
-		this.id = id;
+	public void setId(I i) {
+		this.id = i;
 	}
 
 	@Override

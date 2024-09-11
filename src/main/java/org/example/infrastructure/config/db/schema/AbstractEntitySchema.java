@@ -11,12 +11,12 @@ import java.time.LocalDateTime;
 @MappedSuperclass
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-public abstract class AbstractEntitySchema<ID extends Serializable> implements Serializable {
+public abstract class AbstractEntitySchema<I extends Serializable> implements Serializable {
 	
 	@Id 
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@EqualsAndHashCode.Include
-	private ID id;
+	private I id;
 
 	@Column(name = "create_date")
 	@CreationTimestamp
