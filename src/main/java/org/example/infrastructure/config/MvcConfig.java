@@ -1,15 +1,12 @@
 package org.example.infrastructure.config;
 
 import org.example.entity.gateway.*;
-import org.example.entity.model.Sprint;
 import org.example.infrastructure.config.db.repository.*;
 import org.example.infrastructure.gateway.*;
 import org.example.usecase.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
-
-import java.util.ResourceBundle;
 
 @Configuration
 public class MvcConfig {

@@ -6,7 +6,6 @@ import org.example.usecase.dto.ISprintRegistrationData;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
-import java.util.List;
 
 public record SprintRegistrationDto(
         @NotBlank

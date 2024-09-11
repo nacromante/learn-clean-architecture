@@ -3,7 +3,6 @@ package org.example.infrastructure.controller;
 import jakarta.validation.Valid;
 import org.example.infrastructure.dto.StoryPublicDto;
 import org.example.infrastructure.dto.StoryRegistrationDto;
-import org.example.infrastructure.dto.StoryRegistrationDto;
 import org.example.usecase.CreateStoryUseCase;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PostMapping;

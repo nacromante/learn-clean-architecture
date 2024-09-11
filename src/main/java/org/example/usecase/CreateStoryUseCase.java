@@ -3,7 +3,6 @@ package org.example.usecase;
 import org.example.entity.gateway.StoryGateway;
 import org.example.entity.model.Epic;
 import org.example.entity.model.Story;
-import org.example.entity.model.Sprint;
 import org.example.infrastructure.config.db.enums.ProgressStatus;
 import org.example.usecase.dto.IStoryRegistrationData;
 

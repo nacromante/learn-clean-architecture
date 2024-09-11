@@ -1,11 +1,6 @@
 package org.example.entity.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
-import lombok.*;
 import org.example.entity.AbstractEntity;
-import org.example.infrastructure.config.db.schema.AbstractEntitySchema;
 
 public class User extends AbstractEntity<Long> {
 

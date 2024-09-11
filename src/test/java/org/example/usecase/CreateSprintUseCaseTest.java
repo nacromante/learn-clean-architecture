@@ -7,13 +7,10 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.example.entity.gateway.SprintGateway;
 import org.example.entity.model.Sprint;
 import org.example.infrastructure.dto.SprintRegistrationDto;
-import org.example.usecase.CreateSprintUseCase;
-import org.example.usecase.dto.ISprintRegistrationData;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.time.LocalDate;

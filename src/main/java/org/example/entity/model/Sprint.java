@@ -1,10 +1,7 @@
 package org.example.entity.model;
 
-import jakarta.persistence.*;
-import lombok.*;
 import org.example.entity.AbstractEntity;
 import org.example.infrastructure.config.db.enums.SprintStatus;
-import org.example.infrastructure.config.db.schema.AbstractEntitySchema;
 
 import java.time.LocalDate;
 import java.util.List;

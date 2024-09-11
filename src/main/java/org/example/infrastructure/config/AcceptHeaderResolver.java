@@ -9,14 +9,14 @@ import java.util.Locale;
 
 public class AcceptHeaderResolver extends AcceptHeaderLocaleResolver {
 
-  List<Locale> LOCALES = Arrays.asList(new Locale("en"), new Locale("pt-BR"));
+  List<Locale> locale = Arrays.asList(new Locale("en"), new Locale("pt-BR"));
 
   @Override
   public Locale resolveLocale(HttpServletRequest request) {
     String headerLang = request.getHeader("Accept-Language");
     return headerLang == null || headerLang.isEmpty()
         ? Locale.getDefault()
-        : Locale.lookup(Locale.LanguageRange.parse(headerLang), LOCALES);
+        : Locale.lookup(Locale.LanguageRange.parse(headerLang), locale);
   }
 
 

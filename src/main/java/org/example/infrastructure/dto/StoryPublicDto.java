@@ -1,6 +1,5 @@
 package org.example.infrastructure.dto;
 
-import org.example.entity.model.Epic;
 import org.example.entity.model.Story;
 import org.example.infrastructure.config.db.enums.ProgressStatus;
 import org.example.usecase.dto.IEpicPublicData;

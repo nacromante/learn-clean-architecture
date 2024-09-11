@@ -5,7 +5,6 @@ import lombok.*;
 import org.example.entity.model.Epic;
 import org.example.infrastructure.config.db.enums.ProgressStatus;
 
-import javax.swing.text.html.Option;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;

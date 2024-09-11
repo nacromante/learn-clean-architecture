@@ -1,7 +1,6 @@
 package org.example.usecase;
 
 import org.example.entity.gateway.EpicGateway;
-import org.example.entity.gateway.EpicGateway;
 import org.example.entity.model.Epic;
 import org.example.entity.model.Sprint;
 import org.example.infrastructure.config.db.enums.ProgressStatus;

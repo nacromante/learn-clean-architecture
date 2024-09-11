@@ -1,7 +1,6 @@
 package org.example.usecase;
 
 import org.example.entity.gateway.TaskGateway;
-import org.example.entity.model.Epic;
 import org.example.entity.model.Story;
 import org.example.entity.model.Task;
 import org.example.entity.model.User;
