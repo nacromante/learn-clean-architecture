@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: learn-clean-architecture
+  datasource:
+    url: jdbc:mysql://localhost:3307/kanbam
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  flyway:
+    enabled: true
+
